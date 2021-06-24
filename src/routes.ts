@@ -1,9 +1,10 @@
 import { Router } from "express";
+import { createTurmaController } from "./useCases";
 
 const router = Router()
 
-router.post('/turmas', (request, response) => {
-    return response.status(201).send
+router.post('/createTurma', (request, response) => {
+    return createTurmaController.handle();
 })
 
 export { router }
