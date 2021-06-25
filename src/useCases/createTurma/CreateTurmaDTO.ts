@@ -1,4 +1,4 @@
-import { Aluno } from "../../../entities/Aluno";
+import { Aluno } from "../../entities/Aluno";
 
 export class CreateTurmaDto
 {

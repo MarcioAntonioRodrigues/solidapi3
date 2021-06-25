@@ -1,4 +1,4 @@
-import { Turma } from "../../../entities/Turma";
+import { Turma } from "../../entities/Turma";
 import { ITurmaRepository } from "../ITurmaRepository"
 import { LocalStorage } from "node-localstorage";
 

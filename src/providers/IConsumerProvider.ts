@@ -1,4 +1,4 @@
-import { Turma } from "../../entities/Turma";
+import { Turma } from "../entities/Turma";
 
 export interface IConsumerProvider
 {

@@ -1,16 +1,15 @@
 import { uuid } from "uuidv4";
-import { Aluno } from "./Aluno";
 
 export class Turma
 {
-    readonly id:  string;
+    readonly id!: string;
     nome: string;
-    aluno: Aluno;
+    nomeAluno: string;
 
-    constructor(nome: string, aluno: Aluno, id?: string)
+    constructor(nome: string, nomeAluno: string, id?: string)
     {
         this.nome = nome;
-        this.aluno = aluno;
+        this.nomeAluno = nomeAluno;
         
         if(!id)
         {

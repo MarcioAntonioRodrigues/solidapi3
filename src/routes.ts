@@ -3,7 +3,7 @@ import { createTurmaController } from "./useCases";
 
 const router = Router()
 
-router.post('/createTurma', (request, response) => {
+router.get('/createTurma', (request, response) => {
     return createTurmaController.handle();
 })
 
